@@ -8,10 +8,10 @@ function decreaseBalance(x, y) {
   return x;
 }
 
-function divideBalanceByAccounts(x, y, z) {
-  let balance = x + z;
-  let x3 = balance / y;
-  return x3;
+function divideBalanceByAccounts(x, y) {
+  x = x / y;
+  //console.log(x, "this is x");
+  return x;
 }
 
 function getRestAfterDivision(x, y) {
@@ -21,5 +21,5 @@ function getRestAfterDivision(x, y) {
 
 console.log(increaseBalance(3000, 700));
 console.log(decreaseBalance(3000, 700));
-console.log(divideBalanceByAccounts(3000, 2, 4000));
+console.log(divideBalanceByAccounts(3000, 2));
 console.log(getRestAfterDivision(7000, 3));
