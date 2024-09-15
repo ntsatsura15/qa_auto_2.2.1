@@ -3,15 +3,15 @@ function increaseBalance(x, y) {
   return x;
 }
 
-function decreaseBalance(x) {
-x = x - y;
-return x;
+function decreaseBalance(x, y) {
+  x = x - y;
+  return x;
 }
 
-function divideBalanceByAccounts(x, y) {
-  x = x / y;
-  return x;
-  console.log("x");
+function divideBalanceByAccounts(x, y, z) {
+  let balance = x + z;
+  let x3 = balance / y;
+  return x3;
 }
 
 function getRestAfterDivision(x, y) {
